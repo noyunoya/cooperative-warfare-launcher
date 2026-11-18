@@ -1,0 +1,13 @@
+Cooperative Warfare launcher v0.4.8
+v0.4.8: Fusion card: v24a/b/c (Player 2 found via the hook player, no getentarray); v23 removed (hang).
+v0.4.7: Fusion card: v23a (P2 gun + viewmodel) and v23b (+ VTOL seat); removed the crashing v19-v22 sets.
+v0.4.6: Fusion card gets v22a/b/c bisect buttons (find which Player 2 step crashes the level).
+v0.4.5: Fusion card gets "Install v21" (v19/v20 crash fix: no more setdvar markers).
+v0.4.4: Fusion card gets "Install v20" (v19 crash fix).
+v0.4.3: Fusion card gets "Install v19" (Player 2: gun, PMC viewmodel, seated in the VTOL).
+v0.4.2: Blacksmith keyboard/mouse layout written to s1_sp.toml on launch: LMB fire, RMB aim, Shift sprint, Ctrl crouch (tap again quickly = prone), R reload/use, V melee, G frag, Q flash, Space jump, 1 switch weapon. If a key name is rejected the emulator log says so - send it.
+v0.4.1: Fusion card gets "Install v18" (v17 + Player 2 gets the M160 Custom). Same backup/restore behaviour.
+v0.4.0: Blacksmith (S1) tab has a "Fusion co-op patch" card: one click installs the Fusion-in-Spec-Ops patch (v17 test with guns/models, or v16 stable), keeps your originals as .bak and can restore them. Shows whether fusion_load.bik (loading video) is present.
+Then in game: Spec Ops -> Missions -> Fusion -> Start Op with two controllers connected.
+Known: Player 2 is not seated in the VTOL yet and cannot be downed.
+v0.3.6: S1 preset 6 (ROV + async ON + readback_resolve fast) confirmed to fix the white-out, now the default for new configs.
